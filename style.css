@@ -55,7 +55,7 @@
 		padding-right:10px;
 		padding-top:5px;
 		padding-bottom:5px;
-		border-style: ridge;
+		border-style: solid;
 	}
 	.merchb a:hover {
 		text-shadow: 1px 1px black;
