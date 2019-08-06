@@ -1,0 +1,65 @@
+
+
+	body {
+		 background-color:white;
+	}
+
+
+	/* Add a black background color to the top navigation */
+	.topnav {
+		background-color:black;
+		overflow: hidden;
+		position: fixed; /* Set the navbar to fixed position */
+		top: 0; /* Position the navbar at the top of the page */
+		width: 100%; /* Full width */
+	}
+
+	/* Style the links inside the navigation bar */
+	.topnav a {
+		float: left;
+		color:white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 33px;
+	}
+	
+	/* Change the color of links on hover */
+	.topnav a:hover {
+		text-shadow: 1px 1px #e6e4e3;
+	}
+	
+	/* Add a color to the active/current link */
+	.topnav a.active {
+		color: white;
+	}
+
+	.topnav a.test {
+		padding-top:100px;
+	}
+	.test1 {
+		position: relative;
+		left:4;
+		top: 235;
+		width: 100%;
+	}
+	.merchb {
+		text-align: center;
+		font-size: 33px;
+		text-decoration: none;
+	}
+	.merchb a{
+		text-decoration: none;
+		color:black;
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:5px;
+		padding-bottom:5px;
+		border-style: ridge;
+	}
+	.merchb a:hover {
+		text-shadow: 1px 1px black;
+	}
+	.merchtd {
+		padding:20px;
+	}
