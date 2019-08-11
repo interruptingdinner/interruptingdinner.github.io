@@ -39,3 +39,8 @@ body {
 	text-align:center;
 	font-size:20;
 }
+.container {
+	border:solid;
+	color:white;
+	padding:15px;
+}
