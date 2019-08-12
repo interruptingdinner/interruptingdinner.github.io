@@ -57,3 +57,7 @@ body {
 	padding-top:5px;
 	padding-bottom:5px;
 }
+.bp {
+	text-decoration:line-through;
+	text-decoration-color:#B9353E;
+}
