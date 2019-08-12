@@ -43,4 +43,8 @@ body {
 	border:solid;
 	color:white;
 	padding:15px;
+	border-radius:5%
+}
+.embed {
+	border-radius:5%
 }
