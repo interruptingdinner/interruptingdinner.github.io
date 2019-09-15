@@ -26,6 +26,59 @@
 		<div class="row" width=100%>
 			<div class="col-sm-12">
 				<!--put gallery here-->
+			
+<br>
+<br>
+<br>
+<!-- The four columns -->
+<div class="row">
+  <div class="columnt">
+    <img src="../pics/gallery/img1.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="columnt">
+    <img src="../pics/gallery/img2.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  </div>
+  
+  
+  <div class="row">
+  <div class="column">
+    <img src="../pics/gallery/img3.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../pics/gallery/img4.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../pics/gallery/img5.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../pics/gallery/img6.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="../pics/gallery/img7.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container123">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+<br>
+		<br>
+		<br>
+  <p class="test1">Click image to enlarge</p>
+<!--end gallery-->
 			</div>	
 		</div>
 		<br>
