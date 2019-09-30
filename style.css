@@ -42,11 +42,14 @@ body {
 .container {
 	border:solid;
 	color:white;
-	padding:15px;
-	border-radius:5%
+	padding:20px;
+	padding-bottom:50px;
+	border-radius:1%;
+	text-align:center;
+	
 }
 .embed {
-	border-radius:5%
+	border-radius:1%
 }
 .buynow {
 	font-size:22;
